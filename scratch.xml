@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_participation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Participation and attendance: 100"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_homework"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homework assignments: 100"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_participation"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_add_homework"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Homework Grade"
+        android:textSize="18sp"
+        android:layout_below="@+id/tv_homework"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_reset_homework"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Homework Grades"
+        android:textSize="18sp"
+        android:layout_below="@+id/btn_add_homework"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_group_presentation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group Presentation: 100"
+        android:textSize="20sp"
+        android:layout_below="@+id/btn_reset_homework"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_midterm_exam_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Midterm Exam 1: 100"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_group_presentation"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_midterm_exam_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Midterm Exam 2: 100"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_midterm_exam_1"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_final_project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final Project: 100"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_midterm_exam_2"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Final Grade"
+        android:textSize="18sp"
+        android:layout
